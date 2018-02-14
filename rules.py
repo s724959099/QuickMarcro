@@ -1,8 +1,8 @@
 from pynput.keyboard import Key
 from pynput.mouse import Button
 rules = {
-    "stop": Key.f11,
-    "exit": Key.f12,
+    "stop": 'a',
+    "exit": Key.f1,
     "rules": [{
         'input': {
             'type': 'keyboard',
